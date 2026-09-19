@@ -3,7 +3,7 @@
 Perks Beyond 80 is an SKSE/CommonLibSSE NG plugin experiment for Skyrim Special Edition.
 The goal is to extend a perk-tree setup that removes skill-level locks from perks, so late perks can remain reachable in playthroughs that continue beyond the vanilla level 80-ish progression wall.
 
-This repository currently contains the cleaned Responsive Combat SKSE template with the project renamed for this mod. The gameplay implementation still needs to be designed and built.
+The initial SKSE plugin scaffold is in place, based on the Responsive Combat template. Gameplay functionality is planned but not yet implemented.
 
 When loaded successfully, the plugin prints this message to the in-game console after data load:
 
