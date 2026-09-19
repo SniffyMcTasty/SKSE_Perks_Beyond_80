@@ -5,7 +5,7 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
     // be printed to
     SKSE::GetMessagingInterface()->RegisterListener([](SKSE::MessagingInterface::Message *message) {
         if (message->type == SKSE::MessagingInterface::kDataLoaded)
-            RE::ConsoleLog::GetSingleton()->Print("[ResponsiveCombat] Plugin loaded successfully.");
+            RE::ConsoleLog::GetSingleton()->Print("[PerksBeyond80] Plugin loaded successfully.");
     });
 
     return true;
