@@ -1,9 +1,11 @@
 # Perks Beyond 80
 
 Perks Beyond 80 is an SKSE/CommonLibSSE NG plugin experiment for Skyrim Special Edition.
-The goal is to extend a perk-tree setup that removes skill-level locks from perks, so late perks can remain reachable in playthroughs that continue beyond the vanilla level 80-ish progression wall.
+It is intended as a gameplay supplement to [Removed Perk tree skill level limit](https://www.nexusmods.com/skyrimspecialedition/mods/80084), initially targeting its Ordinator setup. The goal is to remove remaining skill-level requirements on higher perk ranks, including requirements of skill level 80 and above, while preserving prerequisite perks and perk-point costs.
 
-The initial SKSE plugin scaffold is in place, based on the Responsive Combat template. Gameplay functionality is planned but not yet implemented.
+The initial SKSE plugin scaffold is in place. Gameplay functionality is planned but not yet implemented.
+
+The original restriction-removal mod leaves skill-level requirements on higher ranks of multi-rank perks. This supplement is intended to extend that behavior for more flexible build experimentation; it does not introduce new perk trees or change character-level progression. See the [original mod description](https://www.nexusmods.com/skyrimspecialedition/mods/80084) for its existing behavior.
 
 When loaded successfully, the plugin prints this message to the in-game console after data load:
 
@@ -18,7 +20,8 @@ When loaded successfully, the plugin prints this message to the in-game console 
 - Ninja
 - vcpkg
 - SKSE for the Skyrim runtime you are targeting
-- A perk-tree/load-order setup that removes perk skill-level restrictions
+
+Planned gameplay integration targets are Removed Perk tree skill level limit and Ordinator with its matching patch. Exact supported versions will be established during implementation; they are not required just to compile or load the current plugin scaffold.
 
 Set `VCPKG_ROOT` to your vcpkg checkout:
 
